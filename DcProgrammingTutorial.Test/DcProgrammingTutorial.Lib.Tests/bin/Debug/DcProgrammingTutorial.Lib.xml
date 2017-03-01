@@ -1,0 +1,504 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>DcProgrammingTutorial.Lib</name>
+    </assembly>
+    <members>
+        <member name="T:DcProgrammingTutorial.Lib.Classes.ChangesOnDocuments">
+            <summary>
+            The changes on documents.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.ChangesOnDocuments.Done">
+            <summary>
+            Gets or sets a value indicating whether is true or not.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.ChangesOnDocuments.Document">
+            <summary>
+            Gets or sets the document.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.ChangesOnDocuments.DocumentList">
+            <summary>
+            Gets or sets a list of documents.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Classes.Company">
+            <summary>
+            A class wiht the audits of the company.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Classes.Company.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DcProgrammingTutorial.Lib.Classes.Company"/> class.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Classes.Company.#ctor(DcProgrammingTutorial.Lib.Classes.Document)">
+            <summary>
+            Initializes a new instance of the <see cref="T:DcProgrammingTutorial.Lib.Classes.Company"/> class.
+            </summary>
+            <param name="document">
+            The given Company document.
+            </param>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Company.Active">
+            <summary>
+            Gets or sets a value indicating whether the company is active.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Company.Code">
+            <summary>
+            Gets or sets the code of the company.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Company.Documents">
+            <summary>
+            Gets or sets a list of documents of the current company.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Company.Id">
+            <summary>
+            Gets or sets the company id.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Company.Name">
+            <summary>
+            Gets or sets the company name.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Company.Created">
+            <summary>
+            Gets or sets the date and time which the company is created.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Company.Updated">
+            <summary>
+            Gets or sets the date and time which the company is updated.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Company.Deleted">
+            <summary>
+            Gets or sets when the company is deleted.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Company.CreatedBy">
+            <summary>
+            Gets or sets the user the object is created by.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Company.UpdatedBy">
+            <summary>
+            Gets or sets the user the object is updated by.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Company.DeletedBy">
+            <summary>
+            Gets or sets the user the object is deleted by.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Classes.DocumentUpdated">
+            <summary>
+            It holds an event each time document updated.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Classes.Document">
+            <summary>
+            A class with the document's audits.
+            </summary>
+        </member>
+        <member name="E:DcProgrammingTutorial.Lib.Classes.Document.DocumentUpdated">
+            <summary>
+            An event which is invoked each time a document is updated.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Document.CreateDummyDocument">
+            <summary>
+            The creation of a dummy document.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Document.Balance">
+            <summary>
+            Gets or sets the balance of the document.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Document.Code">
+            <summary>
+            Gets or sets the document code.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Document.Company">
+            <summary>
+            Gets or sets the document company.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Document.CompanyName">
+            <summary>
+            The company name.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Document.Id">
+            <summary>
+            Gets or sets the document id.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Document.Name">
+            <summary>
+            Gets or sets the document name.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Document.Created">
+            <summary>
+            Gets or sets the date and time which the document is created.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Document.Updated">
+            <summary>
+            Gets or sets the date and time which the document is updated.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Document.Deleted">
+            <summary>
+            Gets or sets the date and time which the document is deleted.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Document.CreatedBy">
+            <summary>
+            Gets or sets the date and time which the document is created by.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Document.UpdatedBy">
+            <summary>
+            Gets or sets the user the document is updated by.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Classes.Document.DeletedBy">
+            <summary>
+            Gets or sets the user the document is deleted by.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Classes.Document.OnDocumentUpdated">
+            <summary>
+            Invokes an event every time the method is updated.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Classes.Logger">
+            <summary>
+             The Logger class.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Classes.Logger.AddLog(System.String,System.Enum,System.DateTime)">
+            <summary>
+            A method that creates a txt file with the errors,the warnings and the user who did it them.
+            </summary>
+            <param name="exceptions">
+            The name of the current exception.
+            </param>
+            <param name="errorTypes">
+            The given errortype.
+            </param>
+            <param name="time">
+            The time which the error is comitted.
+            </param>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Controllers.DocumentAddedToList">
+            <summary>
+            A delegate that holds an evnt each time a document is added to list.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Controllers.DocumentController">
+            <summary>
+            The document controller.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Controllers.DocumentController.DocumentListEmptyErrorMessage">
+            <summary>
+            The message that is displayed every time our list is empty.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Controllers.DocumentController.counterId">
+            <summary>
+            The counter that increases the document id.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.DocumentController.#ctor">
+            <summary>
+            Initializes a new instance of the <see cref="T:DcProgrammingTutorial.Lib.Controllers.DocumentController"/> class.
+            </summary>
+        </member>
+        <member name="E:DcProgrammingTutorial.Lib.Controllers.DocumentController.DocumentAddedToList">
+            <summary>
+            A list that contains our current documents.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.DocumentController.AddDocumentToList(DcProgrammingTutorial.Lib.Classes.ChangesOnDocuments)">
+            <summary>
+            A method which adds a new document to list.
+            </summary>
+            <param name="objDocument">
+            An object which holds our new document.
+            </param>
+            <returns>
+            The <see cref="T:System.ComponentModel.BindingList`1"/>.
+            Returns an object with our document list, a flag which checks if the document is added succesfuly and our current document,
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.DocumentController.CalculateAverageBalance(System.ComponentModel.BindingList{DcProgrammingTutorial.Lib.Classes.Document})">
+            <summary>
+            A method that calculates the average balance of the documents in our current list.
+            </summary>
+            <param name="list">
+            The cells binding list.
+            </param>
+            <returns>
+            The <see cref="T:System.Single"/>.
+            Returns the value of the average of our current documents.
+            </returns>
+            <exception cref="T:System.ArgumentException"> Fired when given list is empty.</exception>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.DocumentController.CreateNewDocument(System.String,DcProgrammingTutorial.Lib.Classes.Company)">
+            <summary>
+            A method that creates a new document.
+            </summary>
+            <param name="name">
+            The name of the document.
+            </param>
+            <param name="company">
+            The company name.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Classes.Document"/>.
+            Returns the new document.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.DocumentController.RemoveDocumentFromList(System.ComponentModel.BindingList{DcProgrammingTutorial.Lib.Classes.Document},DcProgrammingTutorial.Lib.Classes.Document)">
+            <summary>
+            A method that removes the selected document from list.
+            </summary>
+            <param name="list">
+            Our list of documents.
+            </param>
+            <param name="document">
+            The document name.
+            </param>
+            <returns>
+            The <see cref="T:System.Tuple"/>.
+            Returns a tuple with a bool that checks if the document is removed successfully and our list with the rest documents.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.DocumentController.CalculateTax(DcProgrammingTutorial.Lib.Classes.Document)">
+            <summary>
+            A method that calculates the tax of the selected document.
+            </summary>
+            <param name="document">
+            The selected document.
+            </param>
+            <returns>
+            The <see cref="T:System.Single"/>.
+            Returns the value of the selected document tax.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.DocumentController.DcProgrammingTutorial#Lib#Interfaces#IDocumentController#AddDocumentToList(DcProgrammingTutorial.Lib.Classes.ChangesOnDocuments)">
+            <summary>
+            Adds a new document to our list.
+            </summary>
+            <param name="objDocument">
+            The document name.
+            </param>
+            <returns>
+            The <see cref="T:System.Tuple"/>.
+            Returns a tuple with a bool that checks if the document is added successfully,a list that contains our documents and our new document.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.DocumentController.OnDocumentAddedToList">
+            <summary>
+            Invokes an event every time a document is added to our list.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Controllers.DocumentControllerV2">
+            <summary>
+            The document controller v 2 class.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Controllers.DocumentControllerV2.TaxCalculateErrorMessage">
+            <summary>
+            The message which is displayed every time the user tries to calculate the tax and there is no document in our list.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Controllers.DocumentControllerV2.AverageCalculateErrorMessage">
+            <summary>
+            he message which is displayed every time the user tries to calculate the average balance of our documents and our list is empty.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.DocumentControllerV2.CalculateAverageBalance(System.ComponentModel.BindingList{DcProgrammingTutorial.Lib.Classes.Document})">
+            <summary>
+            A method which calculates average balance.
+            </summary>
+            <param name="list">
+            The name of our document list.
+            </param>
+            <returns>
+            The <see cref="T:System.Single"/>.
+            Returns the value of the average balance of our documents.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Controllers.DocumentControllerV2.CalculateTax(DcProgrammingTutorial.Lib.Classes.Document)">
+            <summary>
+            A method which calculates the tax of our selected document.
+            </summary>
+            <param name="document">
+            The document name.
+            </param>
+            <returns>
+            The <see cref="T:System.Single"/>.
+            Returns the value of the selected document tax.
+            </returns>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Enums.ErrorTypes">
+            <summary>
+            An enum that holds the error types.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Enums.ErrorTypes.Warning">
+            <summary>
+            The warning type of errors.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Enums.ErrorTypes.Error">
+            <summary>
+            The error type of errors.
+            </summary>
+        </member>
+        <member name="F:DcProgrammingTutorial.Lib.Enums.ErrorTypes.Info">
+            <summary>
+            The info type of errors.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Interfaces.IEntity">
+            <summary>
+            An interface which holds the code and the id of our entities.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Interfaces.IEntity.Code">
+            <summary>
+            Gets or sets the code of our current entities.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Interfaces.IEntity.Id">
+            <summary>
+            Gets or sets the id our current entities.
+            </summary>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Interfaces.IDocumentController">
+            <summary>
+            The DocumentController interface.
+            </summary>
+        </member>
+        <member name="E:DcProgrammingTutorial.Lib.Interfaces.IDocumentController.DocumentAddedToList">
+            <summary>
+            An event that is invoked every time a document is added to list.
+            </summary>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Interfaces.IDocumentController.AddDocumentToList(DcProgrammingTutorial.Lib.Classes.ChangesOnDocuments)">
+            <summary>
+            A method which adds a document to list.
+            </summary>
+            <param name="objDocument">
+            An object which holds a bool that checks if document is added successfully, a list with our current documents and our new document.
+            </param>
+            <returns>
+            The <see cref="T:System.Tuple"/>.
+            Returns a Tuple which holds the value of the flag, our list of documents and our newly added document.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Interfaces.IDocumentController.CalculateAverageBalance(System.ComponentModel.BindingList{DcProgrammingTutorial.Lib.Classes.Document})">
+            <summary>
+            A method that calculates the average balance of our current documents in list.
+            </summary>
+            <param name="list">
+            A list with our current documents.
+            </param>
+            <returns>
+            The <see cref="T:System.Single"/>.
+            Returns the value of the average balance of our documents in list.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Interfaces.IDocumentController.CreateNewDocument(System.String,DcProgrammingTutorial.Lib.Classes.Company)">
+            <summary>
+            A method that creates a new document.
+            </summary>
+            <param name="name">
+            The document name.
+            </param>
+            <param name="company">
+            The company where the document belongs.
+            </param>
+            <returns>
+            The <see cref="T:DcProgrammingTutorial.Lib.Classes.Document"/>.
+            Returns the newly created document.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Interfaces.IDocumentController.RemoveDocumentFromList(System.ComponentModel.BindingList{DcProgrammingTutorial.Lib.Classes.Document},DcProgrammingTutorial.Lib.Classes.Document)">
+            <summary>
+            A method which removes a document from list.
+            </summary>
+            <param name="list">
+            The list of our current documents.
+            </param>
+            <param name="document">
+            The selected document name which shall be removed.
+            </param>
+            <returns>
+            The <see cref="T:System.Tuple"/>.
+            Returns a tuple which holds the value of the flag, our list of documents and our newly added document.
+            </returns>
+        </member>
+        <member name="M:DcProgrammingTutorial.Lib.Interfaces.IDocumentController.CalculateTax(DcProgrammingTutorial.Lib.Classes.Document)">
+            <summary>
+            A method which calculates the tax of the current document.
+            </summary>
+            <param name="document">
+            The selected document name.
+            </param>
+            <returns>
+            The <see cref="T:System.Single"/>.
+            Returns the value of the tax of the selected document.
+            </returns>
+        </member>
+        <member name="T:DcProgrammingTutorial.Lib.Interfaces.IEntityAudit">
+            <summary>
+            The interface which contains our audit fields.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Interfaces.IEntityAudit.Created">
+            <summary>
+            Gets or sets the date and time when the document is created.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Interfaces.IEntityAudit.Updated">
+            <summary>
+            Gets or sets when a document is updated.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Interfaces.IEntityAudit.Deleted">
+            <summary>
+            Gets or sets when a document is deleted.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Interfaces.IEntityAudit.CreatedBy">
+            <summary>
+            Gets or sets from who a document is created by.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Interfaces.IEntityAudit.UpdatedBy">
+            <summary>
+            Gets or sets from who a document is updated by.
+            </summary>
+        </member>
+        <member name="P:DcProgrammingTutorial.Lib.Interfaces.IEntityAudit.DeletedBy">
+            <summary>
+            Gets or sets from who a document is deleted by.
+            </summary>
+        </member>
+    </members>
+</doc>
