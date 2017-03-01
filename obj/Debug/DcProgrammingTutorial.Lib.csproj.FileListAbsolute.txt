@@ -1,0 +1,15 @@
+C:\Users\anastopoulos_a\Downloads\DcProgrammingTutorial\DcProgrammingTutorial\ClassLibrary1\bin\Debug\DcProgrammingTutorial.Lib.dll
+C:\Users\anastopoulos_a\Downloads\DcProgrammingTutorial\DcProgrammingTutorial\ClassLibrary1\bin\Debug\DcProgrammingTutorial.Lib.pdb
+C:\Users\anastopoulos_a\Downloads\DcProgrammingTutorial\DcProgrammingTutorial\ClassLibrary1\obj\Debug\DcProgrammingTutorial.Lib.dll
+C:\Users\anastopoulos_a\Downloads\DcProgrammingTutorial\DcProgrammingTutorial\ClassLibrary1\obj\Debug\DcProgrammingTutorial.Lib.pdb
+C:\Users\anastopoulos_a\Downloads\DcProgrammingTutorial\DcProgrammingTutorial\ClassLibrary1\bin\Debug\DcProgrammingTutorial.Lib.XML
+C:\!projects!\DcProgrammingTutorial\DcProgrammingTutorial\ClassLibrary1\bin\Debug\DcProgrammingTutorial.Lib.dll
+C:\!projects!\DcProgrammingTutorial\DcProgrammingTutorial\ClassLibrary1\bin\Debug\DcProgrammingTutorial.Lib.pdb
+C:\!projects!\DcProgrammingTutorial\DcProgrammingTutorial\ClassLibrary1\bin\Debug\DcProgrammingTutorial.Lib.XML
+C:\!projects!\DcProgrammingTutorial\DcProgrammingTutorial\ClassLibrary1\obj\Debug\DcProgrammingTutorial.Lib.dll
+C:\!projects!\DcProgrammingTutorial\DcProgrammingTutorial\ClassLibrary1\obj\Debug\DcProgrammingTutorial.Lib.pdb
+C:\Users\anastopoulos_a\Desktop\OldDcProgrammingTutorial\OldDcProgrammingTutorialWithoutSql\DcProgrammingTutorial\DcProgrammingTutorial\ClassLibrary1\bin\Debug\DcProgrammingTutorial.Lib.dll
+C:\Users\anastopoulos_a\Desktop\OldDcProgrammingTutorial\OldDcProgrammingTutorialWithoutSql\DcProgrammingTutorial\DcProgrammingTutorial\ClassLibrary1\bin\Debug\DcProgrammingTutorial.Lib.pdb
+C:\Users\anastopoulos_a\Desktop\OldDcProgrammingTutorial\OldDcProgrammingTutorialWithoutSql\DcProgrammingTutorial\DcProgrammingTutorial\ClassLibrary1\bin\Debug\DcProgrammingTutorial.Lib.XML
+C:\Users\anastopoulos_a\Desktop\OldDcProgrammingTutorial\OldDcProgrammingTutorialWithoutSql\DcProgrammingTutorial\DcProgrammingTutorial\ClassLibrary1\obj\Debug\DcProgrammingTutorial.Lib.dll
+C:\Users\anastopoulos_a\Desktop\OldDcProgrammingTutorial\OldDcProgrammingTutorialWithoutSql\DcProgrammingTutorial\DcProgrammingTutorial\ClassLibrary1\obj\Debug\DcProgrammingTutorial.Lib.pdb
